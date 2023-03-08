@@ -161,8 +161,8 @@ build() {
     cp msfs/msfs ../run/msfs/
 
     cp tools/daeml ../run/
-
-    build_version=im-server-$1
+#更改 项目编译后的项目名字
+    build_version=mserver$1
     build_name=$build_version.tar.gz
 	if [ -e "$build_name" ]; then
 		rm $build_name
