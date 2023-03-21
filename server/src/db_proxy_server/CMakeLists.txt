@@ -15,8 +15,10 @@ endif()
 #由于我们是源码安装mysql的，所以对db_proxy_server中的CMakeList做一定的修改
 #SET(MYSQL_INCLUDE_DIR /usr/include/mysql)
 #SET(MYSQL_LIB /usr/lib64/mysql)
-SET(MYSQL_INCLUDE_DIR /usr/local/mysql/include)
-SET(MYSQL_LIB /usr/local/mysql/lib)
+#SET(MYSQL_INCLUDE_DIR /usr/local/mysql/include)
+#SET(MYSQL_LIB /usr/local/mysql/lib)
+SET(MYSQL_INCLUDE_DIR /www/server/mysql/include)
+SET(MYSQL_LIB /www/server/mysql/lib)
 
 ADD_DEFINITIONS( -g -W -Wall -D_REENTRANT -D_FILE_OFFSET_BITS=64 -DAC_HAS_INFO
 -DAC_HAS_WARNING -DAC_HAS_ERROR -DAC_HAS_CRITICAL -DTIXML_USE_STL
