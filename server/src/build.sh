@@ -201,6 +201,7 @@ build() {
 
     cp msfs/msfs ../$build_version/msfs/
     cp msfs/msfs.conf.example ../$build_version/msfs/
+    cp msfs/msfs.conf ../$build_version/msfs/
 
     cp slog/log4cxx.properties ../$build_version/lib/
     cp slog/libslog.so  ../$build_version/lib/
