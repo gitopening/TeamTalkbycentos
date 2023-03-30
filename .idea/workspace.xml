@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cba5deb7-baea-4774-afc6-cfdcd643f013" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/auto_setup/im_server/conf/dbproxyserver.conf" beforeDir="false" afterPath="$PROJECT_DIR$/auto_setup/im_server/conf/dbproxyserver.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac/CrashReporter.framework/CrashReporter" beforeDir="false" afterPath="$PROJECT_DIR$/mac/CrashReporter.framework/CrashReporter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac/CrashReporter.framework/Headers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac/CrashReporter.framework/Resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac/CrashReporter.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac/Sparkle.framework/Headers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac/Sparkle.framework/Resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac/Sparkle.framework/Sparkle" beforeDir="false" afterPath="$PROJECT_DIR$/mac/Sparkle.framework/Sparkle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac/Sparkle.framework/Versions/A/Resources/fr.lproj/fr.lproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac/Sparkle.framework/Versions/A/Resources/fr_CA.lproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac/Sparkle.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/base/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/base/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/base/libbase.a" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/base/libbase.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/base/slog/slog_api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/base/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/base/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/db_proxy_server/9dbproxyserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/db_proxy_server/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/db_proxy_server/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/db_proxy_server/libhiredis.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/db_proxy_server/log4cxx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/file_server/9fileserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/file_server/log4cxx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/hiredis/hiredis-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/http_msg_server/9httpmsgserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/http_msg_server/log4cxx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/lib/libbase.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/9dbproxyserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/9fileserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/9httpmsgserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/9loginserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/9msfs.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/9msgserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/9pushserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/9routeserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/dbproxyserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/fileserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/httpmsgserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/loginserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/msfs.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/msgserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/pushserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libconf/routeserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/log4cxx/console.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/log4cxx/inputstreamreader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/log4cxx/socketoutputstream.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/login_server/9loginserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/login_server/log4cxx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/msfs/9msfs.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/msg_server/9msgserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/msg_server/log4cxx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/push_server/9pushserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/push_server/log4cxx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/route_server/9routeserver.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/route_server/log4cxx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/slog/log4cxx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/Client.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/Client.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/ClientConn.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/ClientConn.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/Common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/IPacketCallback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/SeqAlloctor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/SeqAlloctor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/liblog4cxx.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/libslog.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/log4cxx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/message.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/playsound.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/playsound.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/test_client.cpp" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/route_server/routeserver.conf">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/push_server/pushserver.conf">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/msg_server/msgserver.conf">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/login_server/loginserver.conf">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/http_msg_server/httpmsgserver.conf">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/file_server/fileserver.conf">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/db_proxy_server/dbproxyserver.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-294" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/src/db_proxy_server/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/server/mserver23/db_proxy_server/dbproxyserver.conf" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/TeamTalk.iml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="47" />
+    <option name="y" value="23" />
+    <option name="width" value="1233" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TeamTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamTalk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamTalk" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamTalk" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamTalk" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="db_proxy_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamTalk" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="file_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamTalk" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="http_msg_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamTalk" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="libsecurity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamTalk" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="login_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamTalk" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="msg_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamTalk" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamTalk" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="push_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamTalk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamTalk" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="route_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cba5deb7-baea-4774-afc6-cfdcd643f013" name="Default Changelist" comment="" />
+      <created>1680194268774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680194268774</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="49" y="23" width="1231" height="777" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.32975206" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Find" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/server/mserver23/db_proxy_server/dbproxyserver.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/route_server/routeserver.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/push_server/pushserver.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/msg_server/msgserver.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/login_server/loginserver.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/http_msg_server/httpmsgserver.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/file_server/fileserver.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/db_proxy_server/dbproxyserver.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/db_proxy_server/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

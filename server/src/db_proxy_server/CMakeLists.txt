@@ -1,1 +1,34 @@
-cmake_minimum_required(VERSION 2.6)PROJECT(db_proxy_server)AUX_SOURCE_DIRECTORY(./ SRC_LIST)AUX_SOURCE_DIRECTORY(./business SRC_LIST)#SET(LIBRARY_OUTPUT_PATH ./)SET(EXECUTABLE_OUTPUT_PATH  ./)if(APPLE)    SET(PB_LIB_DIR ../base/pb/lib/mac)elseif(UNIX)    SET(PB_LIB_DIR ../base/pb/lib/linux)endif()#由于我们是源码安装mysql的，所以对db_proxy_server中的CMakeList做一定的修改#SET(MYSQL_INCLUDE_DIR /usr/include/mysql)#SET(MYSQL_LIB /usr/lib64/mysql)#由于我们是源码安装mysql的，用这行代码#SET(MYSQL_INCLUDE_DIR /usr/local/mysql/include)#SET(MYSQL_LIB /usr/local/mysql/lib)#ps -ef|grep mysql#root       9464      1  0 13:01 ?        00:00:00 /bin/sh /www/server/mysql/bin/mysqld_safe --defaults-file=/etc/my.cnf --datadir=/www/server/data --pid-file=/www/server/data/cbig.pid#mysql     10491   9464  0 13:01 ?        00:00:08 /www/server/mysql/bin/mysqld --defaults-file=/etc/my.cnf --basedir=/www/server/mysql --datadir=/www/server/data --plugin-dir=/www/server/mysql/lib/plugin --user=mysql --log-error=cbig.err --open-files-limit=65535 --pid-file=/www/server/data/cbig.pid --socket=/tmp/mysql.sock --port=3306#root      45825  10791  0 14:27 pts/0    00:00:00 grep --color=auto mysql#MySQL的配置根据自己的安装位置修改调整SET(MYSQL_INCLUDE_DIR /www/server/mysql/include)SET(MYSQL_LIB /www/server/mysql/lib)ADD_DEFINITIONS( -g -W -Wall -D_REENTRANT -D_FILE_OFFSET_BITS=64 -DAC_HAS_INFO        -DAC_HAS_WARNING -DAC_HAS_ERROR -DAC_HAS_CRITICAL -DTIXML_USE_STL        -DAC_HAS_DEBUG -DLINUX_DAEMON -std=c++11 -DENCRYPT)INCLUDE_DIRECTORIES(./ ./businiess ../base ../base/jsoncpp ../base/pb/protocol        ../base/pb/ ${MYSQL_INCLUDE_DIR})LINK_DIRECTORIES(./ ../base ${PB_LIB_DIR} ${MYSQL_LIB} ../base/slog/lib)#ADD_XXXX必须在TARGET_LINK_LIBRARIES前面，否则会报错#ADD_LIBRARY(${PROJECTNAME} SHARED/STATIC ${SRC_LIST})ADD_EXECUTABLE(db_proxy_server ${SRC_LIST})#因为我本机安装的是mysql，不是mariadb。所以要把依赖库改为mysqlclient。否则会编译报错:#TARGET_LINK_LIBRARIES(db_proxy_server pthread base protobuf-lite mysqlclient_r hiredis curl slog crypto)TARGET_LINK_LIBRARIES(db_proxy_server pthread base protobuf-lite mysqlclient hiredis curl slog crypto) 
+cmake_minimum_required(VERSION 2.6)
+PROJECT(db_proxy_server)
+
+AUX_SOURCE_DIRECTORY(./ SRC_LIST)
+AUX_SOURCE_DIRECTORY(./business SRC_LIST)
+
+#SET(LIBRARY_OUTPUT_PATH ./)
+SET(EXECUTABLE_OUTPUT_PATH  ./)
+if(APPLE)
+    SET(PB_LIB_DIR ../base/pb/lib/mac)
+elseif(UNIX)
+    SET(PB_LIB_DIR ../base/pb/lib/linux)
+endif()
+
+#SET(MYSQL_INCLUDE_DIR /usr/include/mysql)
+#SET(MYSQL_LIB /usr/lib64/mysql)
+SET(MYSQL_INCLUDE_DIR /www/server/mysql/include)
+SET(MYSQL_LIB /www/server/mysql/lib)
+
+ADD_DEFINITIONS( -g -W -Wall -D_REENTRANT -D_FILE_OFFSET_BITS=64 -DAC_HAS_INFO
+-DAC_HAS_WARNING -DAC_HAS_ERROR -DAC_HAS_CRITICAL -DTIXML_USE_STL
+-DAC_HAS_DEBUG -DLINUX_DAEMON -std=c++11 -DENCRYPT)
+
+INCLUDE_DIRECTORIES(./ ./businiess ../base ../base/jsoncpp ../base/pb/protocol
+../base/pb/ ${MYSQL_INCLUDE_DIR})
+LINK_DIRECTORIES(./ ../base ${PB_LIB_DIR} ${MYSQL_LIB} ../base/slog/lib)
+
+#ADD_XXXX必须在TARGET_LINK_LIBRARIES前面，否则会报错
+#ADD_LIBRARY(${PROJECTNAME} SHARED/STATIC ${SRC_LIST})
+ADD_EXECUTABLE(db_proxy_server ${SRC_LIST})
+
+#TARGET_LINK_LIBRARIES(db_proxy_server pthread base protobuf-lite mysqlclient_r hiredis curl slog crypto)
+TARGET_LINK_LIBRARIES(db_proxy_server pthread base protobuf-lite mysqlclient hiredis curl slog crypto)
+ 
